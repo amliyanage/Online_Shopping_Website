@@ -57,3 +57,16 @@ header nav #mobileBar{
     display: none;
 }
 
+@media screen and (max-width: 768px){
+    header nav ul{
+        display: none;
+    }
+
+    header nav :nth-child(3){
+        display: none;
+    }
+
+    header nav #mobileBar{
+        display: block;
+    }
+}
