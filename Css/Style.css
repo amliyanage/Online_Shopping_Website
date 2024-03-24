@@ -214,4 +214,107 @@ header nav #mobileBar{
     }
     
 }
+.product{
+    margin-top: 100px;
+    padding: 40px;
+    width: 100%;
+    border-top: 2px solid #e0e0e0;
+}
 
+.product .main_title h1{
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.product .main_title img{
+    position: absolute;
+    z-index: -1;
+    width: 50vh;
+    left: 75vh;
+    top: 116vh;
+}
+
+.product .main_title{
+    margin-left: 45%;
+}
+
+.product .card-set{
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 10vh;
+}
+
+.product .card{
+    width: 100%;
+    border: 2px solid #e0e0e0;
+}
+
+.product .card img{
+    width: 90%;
+    padding: 20px;
+}
+
+.product .card .brand{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.product .card .title{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #242424;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.product .card .star{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.product .card .star i{
+    font-size: 20px;
+    color: #daff35;
+}
+
+.product .card .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.product .card .price h3{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #5db455;
+    letter-spacing: 1px;
+}
+
+.product .card .price button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #5db455;
+    border: none;
+    border-radius: 5px;
+}
