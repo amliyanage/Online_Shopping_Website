@@ -10,6 +10,9 @@
 header{
     position: fixed;
     width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
 }
 
 header nav{
@@ -38,7 +41,7 @@ header nav :nth-child(3){
 }
 
 header nav :nth-child(3) div{
-    background-color: #3f3f3f;
+    background-color: #5db455;
     border-radius: 50%;
 }
 
@@ -57,6 +60,67 @@ header nav #mobileBar{
     display: none;
 }
 
+.homePage{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.homePage .data{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.homePage .data h2{
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #242424;
+    letter-spacing: 1.44px;
+    margin-bottom: 10px;
+}
+
+.homePage .data h1{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    color: #5db455;
+    letter-spacing: 1.44px;
+    margin-bottom: 20px;
+}
+
+.homePage .data p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    letter-spacing: 1.44px;
+}
+
+.homePage .data button{
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #5db455;
+    border: none;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.homePage img{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    left: 30%;
+    top: 12vh;
+    z-index: -100;
+}
+
+/* Media Query */
+
 @media screen and (max-width: 768px){
     header nav ul{
         display: none;
@@ -68,5 +132,6 @@ header nav #mobileBar{
 
     header nav #mobileBar{
         display: block;
+        margin-right: 10px;
     }
 }
