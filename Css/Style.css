@@ -96,6 +96,7 @@ header nav #mobileBar{
     font-weight: 400;
     color: #3f3f3f;
     letter-spacing: 1.44px;
+    width: 66vh;
 }
 
 .homePage .data button{
@@ -121,6 +122,31 @@ header nav #mobileBar{
 
 /* Media Query */
 
+@media screen and (max-width: 1440px) {
+    .homePage img{
+        width: 80%;
+        left: 30%;
+        top: 13vh;
+    }
+
+    .homePage .data{
+        left: 5%;
+    }
+
+    .homePage .data p{
+        width: 70vh;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .homePage .data p {
+        width: 51vh;
+    }
+    
+    
+}
+
 @media screen and (max-width: 768px){
     header nav ul{
         display: none;
@@ -134,4 +160,58 @@ header nav #mobileBar{
         display: block;
         margin-right: 10px;
     }
+
+    .homePage img{
+        width: 120%;
+        left: -9vh;
+        opacity: 37%;
+    }
+
+    .homePage .data{
+        text-align: center;
+        margin-left: 10%;
+    }
 }
+
+@media screen and (max-width: 425px){
+    .homePage {
+        width: 160%;
+        height: 130vh;
+        overflow: hidden;
+    }
+
+    .homePage img {
+        width: 220%;
+        left: -57vh;
+        opacity: 37%;
+    }
+
+    .homePage .data p {
+        width: 62vh;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .homePage .data p {
+        width: 57vh;
+    }
+
+    .homePage img {
+        width: 250%;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    header nav #mobileBar {
+        display: block;
+        margin-right: 37px;
+    }
+
+    .homePage .data p {
+        width: 47vh;
+    }
+    
+}
+
