@@ -7,12 +7,17 @@
     text-decoration: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    z-index: 1000;
 }
 
 header nav{
@@ -120,100 +125,7 @@ header nav #mobileBar{
     z-index: -100;
 }
 
-/* Media Query */
 
-@media screen and (max-width: 1440px) {
-    .homePage img{
-        width: 80%;
-        left: 30%;
-        top: 13vh;
-    }
-
-    .homePage .data{
-        left: 5%;
-    }
-
-    .homePage .data p{
-        width: 70vh;
-    }
-}
-
-@media screen and (max-width: 1024px){
-
-    .homePage .data p {
-        width: 51vh;
-    }
-    
-    
-}
-
-@media screen and (max-width: 768px){
-    header nav ul{
-        display: none;
-    }
-
-    header nav :nth-child(3){
-        display: none;
-    }
-
-    header nav #mobileBar{
-        display: block;
-        margin-right: 10px;
-    }
-
-    .homePage img{
-        width: 120%;
-        left: -9vh;
-        opacity: 37%;
-    }
-
-    .homePage .data{
-        text-align: center;
-        margin-left: 10%;
-    }
-}
-
-@media screen and (max-width: 425px){
-    .homePage {
-        width: 160%;
-        height: 130vh;
-        overflow: hidden;
-    }
-
-    .homePage img {
-        width: 220%;
-        left: -57vh;
-        opacity: 37%;
-    }
-
-    .homePage .data p {
-        width: 62vh;
-    }
-
-}
-
-@media screen and (max-width: 375px){
-    .homePage .data p {
-        width: 57vh;
-    }
-
-    .homePage img {
-        width: 250%;
-    }
-}
-
-@media screen and (max-width: 320px){
-
-    header nav #mobileBar {
-        display: block;
-        margin-right: 37px;
-    }
-
-    .homePage .data p {
-        width: 47vh;
-    }
-    
-}
 .product{
     margin-top: 100px;
     padding: 40px;
@@ -317,4 +229,178 @@ header nav #mobileBar{
     background-color: #5db455;
     border: none;
     border-radius: 5px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1440px) {
+    .homePage img{
+        width: 80%;
+        left: 30%;
+        top: 13vh;
+    }
+
+    .homePage .data{
+        left: 5%;
+    }
+
+    .homePage .data p{
+        width: 70vh;
+    }
+
+    .product .card-set{
+        margin-left: 4vh;
+    }
+
+    .product .main_title img {
+        left: 63vh;
+        top: 119vh;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .homePage{
+        width: 108%;
+    }
+
+    .homePage .data p {
+        width: 51vh;
+    }
+
+    .product .card-set{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product .card .title {
+        font-size: 26px;
+    }
+
+    .product .main_title img {
+        left: 41vh;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    header nav ul{
+        display: none;
+    }
+
+    header nav :nth-child(3){
+        display: none;
+    }
+
+    header nav #mobileBar{
+        display: block;
+        margin-right: 10px;
+    }
+
+    .homePage img{
+        width: 120%;
+        left: -9vh;
+        opacity: 37%;
+    }
+
+    .homePage .data {
+        text-align: center;
+        margin-left: 22%;
+    }
+
+    .product .card-set{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product .main_title img {
+        left: 26vh;
+    }
+
+    .product {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .homePage {
+        width: 160%;
+        height: 130vh;
+        overflow: hidden;
+    }
+
+    .homePage img {
+        width: 220%;
+        left: -57vh;
+        opacity: 37%;
+    }
+
+    .homePage .data p {
+        width: 62vh;
+    }
+
+    .product .card-set{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product {
+        width: 148%;
+    }
+
+    .homePage .data {
+        text-align: center;
+        margin-left: 11%;
+        margin-top: 14vh;
+    }
+
+    .product .main_title img {
+        left: 17vh;
+        top: 149vh;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    .homePage .data p {
+        width: 57vh;
+    }
+
+    .homePage img {
+        width: 250%;
+    }
+
+    .product .main_title {
+        margin-left: 38%;
+    }
+
+    .product .main_title img {
+        left: 10vh;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    header nav #mobileBar {
+        display: block;
+        margin-right: 37px;
+    }
+
+    .homePage .data p {
+        width: 47vh;
+    }
+
+    .homePage {
+        width: 164%;
+    }    
+    
+    .homePage img {
+        left: -52vh;
+    }
+
+    .product .main_title img {
+        left: 6vh;
+    }
+
 }
