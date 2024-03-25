@@ -195,13 +195,14 @@ header nav #mobileBar{
 
 .imageWrapper{
     width: 100%;
-    height: 40vh;
+    height: 71%;
     overflow: hidden;
     border-radius: 10px;
 }
 
 .product .card img{
     width: 100%;
+    height: 100%;
 }
 
 .product .card:hover img{
@@ -280,7 +281,7 @@ header nav #mobileBar{
     }
 
     .product .card-set{
-        margin-left: 4vh;
+        margin-left: 2vh;
     }
 
     .product .main_title img {
