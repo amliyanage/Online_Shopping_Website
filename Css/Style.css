@@ -263,6 +263,142 @@ header nav #mobileBar{
     border-radius: 5px;
 }
 
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.about .title{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background-image: url("/Assests/img/about/banner.png");
+    background-position: top;
+}
+
+.about .title h1{
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 20vh;
+    padding-top: 7%;
+}
+
+.about .title p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.about .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about .container img{
+    width: 80%;
+    height: 100%;
+}
+
+.about .container > :first-child{
+    padding:100px 0px 0px 100px;
+    width: 100%;
+}
+.about .container > :last-child{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.about .container > :last-child h1{
+    font-size: 65px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.about .container > :last-child p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    width: 60%;
+}
+
+.about .container > :last-child button{
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.about .app{
+    margin-top: 7%;
+    text-align: center;
+}
+
+.about .app h1{
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.about .app h1 span{
+    color: #5db455;
+}
+
+.about video{
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 10px;
+}
+.about .tag {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 60px;
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.about .tag .card{
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about .tag .card img{
+    width: 100%;
+    padding: 10px;
+}
+
+.about .tag .card h1{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    background-color: #bcceff5b;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 1440px) {
