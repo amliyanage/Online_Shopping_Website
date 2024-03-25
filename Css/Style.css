@@ -32,13 +32,36 @@ header nav ul{
     gap: 70px;
 }
 
-header nav ul li{
+header nav ul li {
     font-size: 18px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #3f3f3f;
     letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 10px;
 }
+
+header nav ul li::before {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #5db455; 
+    transition: width 1s; 
+}
+
+header nav ul li:hover::before {
+    width: 100%;
+}
+
+header nav ul li:hover{
+    transition: 1s;
+    color: #5db455;
+}
+
 
 header nav :nth-child(3){
     display: flex;
@@ -164,13 +187,25 @@ header nav #mobileBar{
 }
 
 .product .card{
-    width: 100%;
+    width: 94%;
     border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imageWrapper{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .product .card img{
-    width: 90%;
-    padding: 20px;
+    width: 100%;
+}
+
+.product .card:hover img{
+    transform: scale(1.1);
 }
 
 .product .card .brand{
@@ -180,7 +215,6 @@ header nav #mobileBar{
     color: #3f3f3f;
     letter-spacing: 1px;
     margin-top: 10px;
-    padding-left: 20px;
 }
 
 .product .card .title{
@@ -190,14 +224,12 @@ header nav #mobileBar{
     color: #242424;
     letter-spacing: 1px;
     margin-top: 10px;
-    padding-left: 20px;
 }
 
 .product .card .star{
     display: flex;
     gap: 5px;
     margin-top: 10px;
-    padding-left: 20px;
 }
 
 .product .card .star i{
@@ -209,7 +241,6 @@ header nav #mobileBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 
 .product .card .price h3{
@@ -279,6 +310,7 @@ header nav #mobileBar{
     .product .main_title img {
         left: 41vh;
     }
+
     
     
 }
