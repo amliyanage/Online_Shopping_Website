@@ -424,6 +424,14 @@ header nav #mobileBar{
         left: 63vh;
         top: 119vh;
     }
+
+    .about {
+        width: 106%;
+    }
+
+    .about .tag {
+        margin-left: 37px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -448,8 +456,17 @@ header nav #mobileBar{
         left: 41vh;
     }
 
+    .about {
+        width: 108%;
+    }
+
+    .about .container {
+        gap: 56px;
+    }
     
-    
+    .about .container > :last-child p {
+        width: 79%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -487,6 +504,23 @@ header nav #mobileBar{
 
     .product {
         padding-left: 10px;
+    }
+
+    .about .tag{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about .title {
+        height: 26%;
+    }
+
+    .about .container > :last-child h1 {
+        font-size: 50px;
+    }
+
+    .about .container > :last-child p {
+        font-size: 16px;
+        width: 97%;
     }
 }
 
@@ -527,6 +561,45 @@ header nav #mobileBar{
         top: 149vh;
     }
 
+    .about .container{
+        display: block;
+    }
+
+    .about {
+        width: 160%;
+    }
+
+    .about .container img{
+        margin: 43px 0px 0px 73px
+    }
+
+    .about .container > :first-child {
+        padding: 0px;
+    }
+
+    .about .container > :last-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .container > :last-child p {
+        font-size: 25px;
+        width: 95%;
+        margin-left: 24px;
+    }
+
+    .about video {
+        width: 87%;
+    }
+
+    .about .tag {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about {
+        width: 162%;
+    }
+
 }
 
 @media screen and (max-width: 375px){
@@ -545,6 +618,10 @@ header nav #mobileBar{
 
     .product .main_title img {
         left: 10vh;
+    }
+
+    .about {
+        width: 162%;
     }
 
 }
@@ -570,6 +647,10 @@ header nav #mobileBar{
 
     .product .main_title img {
         left: 6vh;
+    }
+
+    .about {
+        width: 164%;
     }
 
 }
