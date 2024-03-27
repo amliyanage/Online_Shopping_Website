@@ -614,6 +614,14 @@ header nav #mobileBar{
     .review .card-set {
         width: 97%;
     }
+
+    .contact {
+        width: 106%;
+    }
+
+    .contact > div > :last-child {
+        padding-left: 27px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -713,10 +721,6 @@ header nav #mobileBar{
         width: 97%;
     }
 
-    .review {
-        width: 108%;
-    }
-
     .review .card-set {
         width: 95%;
         display: grid;
@@ -724,7 +728,7 @@ header nav #mobileBar{
     }
 
     .review {
-        width: 162%;
+        width: 110%;
     }
 
     .review .card-set {
