@@ -217,3 +217,45 @@ section .dis p{
     width: 70%;
     letter-spacing: 0.5px;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+    header nav ul{
+        display: none;
+    }
+
+    header nav :nth-child(3){
+        display: none;
+    }
+
+    header nav #mobileBar{
+        display: block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+
+}
+
+@media screen and (max-width: 375px){
+
+}
+
+@media screen and (max-width: 320px){
+
+    header nav #mobileBar {
+        display: block;
+        margin-right: 37px;
+    }
+}
