@@ -558,6 +558,40 @@ header nav #mobileBar{
     padding-top: 6%;
 }
 
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    background-color: #5db455;
+}
+
+footer h1{
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+footer > :first-child div{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
 
 /* .contact .title{
     width: 100%;
