@@ -547,6 +547,10 @@ header nav #mobileBar{
     .review {
         width: 108%;
     }
+
+    .review .card {
+        width: 89%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -613,9 +617,20 @@ header nav #mobileBar{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .review .card {
-        width: 89%;
+    .review {
+        width: 162%;
     }
+
+    .review .card-set {
+        width: 94%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .review .card {
+        width: 94%;
+    }
+
 }
 
 @media screen and (max-width: 425px){
