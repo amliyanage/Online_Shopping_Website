@@ -1,6 +1,78 @@
 header{
     position: fixed;
-    padding: 50px;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 70px;
+}
+
+header nav ul li {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+header nav ul li::before {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #5db455; 
+    transition: width 1s; 
+}
+
+header nav ul li:hover::before {
+    width: 100%;
+}
+
+header nav ul li:hover{
+    transition: 1s;
+    color: #5db455;
+}
+
+
+header nav :nth-child(3){
+    display: flex;
+    gap: 40px;
+}
+
+header nav :nth-child(3) div{
+    background-color: #5db455;
+    border-radius: 50%;
+}
+
+header nav :nth-child(3)  i{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header nav #mobileBar i{
+    font-size: 30px;
+    color: #3f3f3f;
+}
+
+header nav #mobileBar{
+    display: none;
 }
 
 *{
@@ -38,6 +110,10 @@ section{
     width: 79%;
     margin-left: 9vh;
     height: auto;
+}
+
+.mainImg:hover{
+    cursor: zoom-in;
 }
 
 .pic > div{
