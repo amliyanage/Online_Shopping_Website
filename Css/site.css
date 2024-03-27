@@ -84,15 +84,6 @@ header nav #mobileBar{
     font-family: "Inter", sans-serif;
 }
 
-header button{
-    background-color: #5db455;
-    border: 1px solid #f8f9fa;
-    border-radius: 5px;
-    padding: 20px 30px;
-    color: #ffff;
-    font-size: 18px;
-}
-
 section{
     position: absolute;
     top: 150px;
@@ -138,13 +129,13 @@ section > :last-child{
 }
 
 section > :last-child h1{
-    font-size: 20px;
+    font-size: 150%;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 1.44px;
 }
 
 section > :last-child h2{
-    font-size: 43px;
+    font-size: 350%;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -154,14 +145,14 @@ section > :last-child h2 span{
 }
 
 section > :last-child h3{
-    font-size: 40px;
+    font-size: 300%;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 select{
     border: 3px solid #575757;
-    font-size: 18px;
+    font-size: 120%;
     letter-spacing: .5px;
     padding: 10px 30px;
     width: 13%;
@@ -182,7 +173,7 @@ select{
 
 input{
     border: 3px solid #575757;
-    font-size: 18px;
+    font-size: 120%;
     letter-spacing: .5px;
     width: 9%;
     padding: 20px 10px;
@@ -194,7 +185,7 @@ section button{
     border-radius: 5px;
     padding: 20px 30px;
     color: #ffff;
-    font-size: 18px;
+    font-size: 120%;
     margin-left: 20px;
 }
 
@@ -206,13 +197,13 @@ section .dis{
 }
 
 section .dis h1{
-    font-size: 35px;
+    font-size: 180%;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 section .dis p{
-    font-size: 22px;
+    font-size: 140%;
     font-weight: 400;
     width: 70%;
     letter-spacing: 0.5px;
@@ -221,6 +212,26 @@ section .dis p{
 /* Media Query */
 
 @media screen and (max-width: 1440px) {
+    section > :last-child h2 {
+        font-size: 260%;
+    }
+
+    section > :last-child h3 {
+        font-size: 210%;
+    }
+
+    select {
+        font-size: 120%;
+        width: 21%;
+    }
+
+    section .dis h1 {
+        font-size: 150%;
+    }
+
+    section .dis p {
+        font-size: 120%;
+    }
 
 }
 
