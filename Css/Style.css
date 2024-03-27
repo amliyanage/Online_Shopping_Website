@@ -500,6 +500,14 @@ header nav #mobileBar{
     .about .tag {
         margin-left: 37px;
     }
+
+    .review {
+        width: 106%;
+    }
+
+    .review .card-set {
+        width: 97%;
+    }
 }
 
 @media screen and (max-width: 1024px){
