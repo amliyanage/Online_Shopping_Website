@@ -642,7 +642,7 @@ footer > :first-child div{
     }
 
     .review {
-        width: 106%;
+        width: 107%;
     }
 
     .review .card-set {
@@ -655,6 +655,10 @@ footer > :first-child div{
 
     .contact > div > :last-child {
         padding-left: 27px;
+    }
+
+    footer{
+        width: 105%;
     }
 }
 
@@ -698,6 +702,10 @@ footer > :first-child div{
 
     .review .card {
         width: 89%;
+    }
+
+    footer{
+        gap: 30px;
     }
 }
 
