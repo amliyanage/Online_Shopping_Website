@@ -543,6 +543,10 @@ header nav #mobileBar{
     .about .container > :last-child p {
         width: 79%;
     }
+
+    .review {
+        width: 108%;
+    }
 }
 
 @media screen and (max-width: 768px){
