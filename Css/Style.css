@@ -741,6 +741,24 @@ header nav #mobileBar{
         width: 94%;
     }
 
+    .contact > div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact > div > :first-child {
+        text-align: center;
+        width: 90%;
+    }
+
+    .contact > div > :first-child p , h1 , button{
+        width: auto;
+        margin-right: 70px;
+    }
+
+    .contact iframe{
+        margin-left: 4vh;
+    }
+
 }
 
 @media screen and (max-width: 425px){
