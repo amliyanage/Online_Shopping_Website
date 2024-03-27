@@ -887,6 +887,12 @@ footer > :first-child div{
         width: 154%;
     }
 
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 42px;
+        width: 152%;
+    }
+
 }
 
 @media screen and (max-width: 375px){
@@ -937,7 +943,23 @@ footer > :first-child div{
     }
 
     .about {
-        width: 164%;
+        width: 169%;
+    }
+
+    footer{
+        width: 157%;
+    }
+
+    .about .container h1 , button{
+        margin-left: 92px;
+    }
+
+    .review{
+        width: 169%;
+    }
+
+    .about .app h1{
+        margin-left: 50px;
     }
 
 }
