@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    padding: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    font-family: "Inter", sans-serif;
+}
+
+header button{
+    background-color: #5db455;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #ffff;
+    font-size: 18px;
+}
+
+section{
+    position: absolute;
+    top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    z-index: -1;
+}
+
+.pic{
+    padding: 50px;
+    padding-left: 10vh;
+}
+
+.mainImg{
+    width: 100%;
+    height: auto;
+}
+
+.pic > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pic > div img{
+    width: 23.5%;
+}
+
+section > :last-child{
+    padding: 50px;
+    padding-left: 30px;
+}
+
+section > :last-child h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+section > :last-child h2{
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+section > :last-child h2 span{
+    color: #5db455;
+}
+
+section > :last-child h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+select{
+    border: 3px solid #575757;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+input{
+    border: 3px solid #575757;
+    font-size: 18px;
+    letter-spacing: .5px;
+    margin-top: 20px;
+    width: 5%;
+    padding: 20px 10px;
+}
+
+section button{
+    background-color: #5db455;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+set
