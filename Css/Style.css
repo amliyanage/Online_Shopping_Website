@@ -480,6 +480,99 @@ header nav #mobileBar{
     padding-bottom: 3%;
 }
 
+.contact{
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    margin-top: 60px;
+    padding-bottom: 130px;
+}
+
+.contact > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact > div > :first-child{
+    padding: 100px 0px 0px 100px;
+    width: 100%;
+}
+
+.contact > div > :last-child{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.contact > div > :first-child h1{
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.contact > div > :first-child p{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+    width: 60%;
+}
+
+.contact > div > :first-child div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > div > :first-child div input{
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.contact > div > :first-child button{
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #5db455;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.contact > div > :last-child iframe{
+    width: 90%;
+    height: 100%;
+    border-radius: 8px;
+    border: 2px solid #5db455;
+    padding-top: 6%;
+}
+
+
+/* .contact .title{
+    width: 100%;
+    text-align: center;
+} */
+
+/* .contact .title h1{
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #5db455;
+    letter-spacing: 1px;
+} */
+
+
 /* Media Query */
 
 @media screen and (max-width: 1440px) {
