@@ -265,7 +265,7 @@ header nav #mobileBar{
 
 .about{
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .about .title{
@@ -397,6 +397,37 @@ header nav #mobileBar{
     letter-spacing: 1px;
     margin-top: 10px;
     background-color: #bcceff5b;
+}
+
+.review{
+    width: 100%;
+    height: auto;
+}
+
+.review .card{
+    width: 20%;
+    text-align: center;
+    border: 1px solid #585858;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+}
+
+.review .card p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.review .card .star i{
+    font-size: 20px;
+    color: #daff35;
+    gap: 5px;
 }
 
 /* Media Query */
