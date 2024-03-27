@@ -837,6 +837,14 @@ header nav #mobileBar{
         width: 162%;
     }
 
+    .review {
+        width: 162%;
+    }
+
+    .contact {
+        width: 154%;
+    }
+
 }
 
 @media screen and (max-width: 375px){
