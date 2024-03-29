@@ -336,8 +336,19 @@ section .dis p{
 }
 
 @media screen and (max-width: 425px){
+    select {
+        margin-left: 16vh;
+        width: 23%;
+    }
 
+    section .dis p {
+        width: 78%;
+        margin-left: 6vh;
+    }
 
+    section > :last-child h2 {
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 375px){
