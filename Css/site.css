@@ -237,6 +237,56 @@ section .dis p{
 
 @media screen and (max-width: 1024px){
 
+    section > :last-child h1 {
+        font-size: 90%;
+    }
+
+    section > :last-child h2 {
+        font-size: 200%;
+    }
+
+    section > :last-child h3 {
+        font-size: 150%;
+    }
+
+    select {
+        font-size: 98%;
+        width: 18%;
+        padding: 5px 7px;
+    }
+
+    section .dis > h1{
+        font-size: 119%;
+    }
+
+    section .dis p {
+        font-size: 100%;
+        width: 85%;
+    }
+
+    .mainImg {
+        width: 109%;
+        margin-left: -1vh;
+    }
+
+    .pic > div {
+        margin-left: -1vh;
+    }
+
+    .pic > div img {
+        width: 25.5%;
+    }
+
+    input {
+        width: 10%;
+        padding: 10px 5px;
+    }
+
+    section button {
+        padding: 20px 30px;
+        font-size: 89%;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -251,6 +301,37 @@ section .dis p{
     header nav #mobileBar{
         display: block;
         margin-right: 10px;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    .mainImg {
+        width: 99%;
+    }
+
+    .pic > div img {
+        width: 23.5%;
+    }
+
+    section > :last-child {
+        text-align: center;
+    }
+
+    select {
+        font-size: 98%;
+        width: 18%;
+        padding: 5px 7px;
+    }
+
+    select {
+        margin-left: 32vh;
+    }
+
+    section .dis p {
+        width: 78%;
+        margin-left: 8vh;
     }
 }
 
