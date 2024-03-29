@@ -195,7 +195,7 @@ header nav #mobileBar{
     width: 96%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 50px;
     margin-top: 10vh;
 }
 
