@@ -349,9 +349,34 @@ section .dis p{
     section > :last-child h2 {
         margin-left: 25px;
     }
+
+    .mainImg {
+        width: 119%;
+        margin-left: -40px;
+        margin-top: -79px;
+    }
+
+    .pic > div {
+        margin-left: -3vh;
+    }
 }
 
 @media screen and (max-width: 375px){
+
+    section .dis p {
+        width: 78%;
+        margin-left: 5vh;
+    }
+
+    .mainImg {
+        width: 119%;
+        margin-left: -40px;
+        margin-top: -79px;
+    }
+
+    .pic > div {
+        margin-left: -5vh;
+    }
 
 }
 
@@ -360,5 +385,9 @@ section .dis p{
     header nav #mobileBar {
         display: block;
         margin-right: 37px;
+    }
+
+    .pic > div {
+        margin-left: -6vh;
     }
 }
