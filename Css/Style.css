@@ -963,3 +963,18 @@ footer > :first-child div{
     }
 
 }
+
+@media (min-width: 1500px) and (max-width: 1440px) {
+    body {
+        width: 90%;
+    }
+
+    .about ,  .review , .contact {
+        width: 110%;
+        overflow-x: hidden;
+    }
+
+    footer{
+        width: 108%;
+    }
+}
